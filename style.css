@@ -1,0 +1,148 @@
+* {
+    background: black;
+    color:white;
+    font-family: 'Domine', serif
+  }
+  .page-frame {
+    margin:0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile{
+    font-size: 2rem;
+    color: #f7d7c8;
+  }
+  .Profile-img {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+  }
+  .content-one {
+   height: 80px;
+   width: 570px;
+   position:relative;
+   margin: 20px auto 0;
+  }.content{
+    line-height: 2rem;
+    color: #f7d7c8;
+  }
+  .social-icon {
+    margin-bottom:30px;
+    display: flex;
+    height: 50px;
+    min-height:15px;
+    width:212px;
+    min-width: 110px;
+    padding:20px;
+    margin:auto;
+  }
+  .social-icon .twitter {
+    padding: 0px 40px;
+  }
+  .social-icon a:hover{
+    color: rgba(214, 118, 8, 0.767)
+  }
+  .about-brand {
+    display: flex;
+    position: relative;
+    width:90%;
+    box-sizing: border-box;
+    font-size:1 rem;
+    line-height: 1;
+    font-weight: 400;
+    margin: 15px 0 0;
+    
+  }
+  .collaborate {
+    width: 50%;
+  }
+  .dwell {
+    width: 50%;
+  }
+  .one{
+    font-size: 2rem;
+  }
+  .d1{
+    width: 3rem;
+  }
+  .colabo,
+  .dwelling{
+    color: #f7d7c8;
+  }
+  .chat-now {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .content-three {
+    text-align: center;
+    font-size: 144%;
+  }
+  .hr {
+    margin: 50px; 
+    line-height: 0.6cm;
+    color: #f7d7c8;
+  }
+  .portfolio {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .portfolio img{
+    width: 300px;
+    height:250px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  a:hover{
+    color: #f7d7c8;
+  }
+  .learn{
+    padding: 1rem 2rem;
+    border-color: #f7d7c8;
+  }
+  .content-four {
+    display: flex;
+  }
+  .life {
+  padding:0 10%;
+  }
+  .content-five {
+    text-align: center;
+  }
+  .security{
+    color: #f7d7c8;
+    font-size: 3rem;
+    font-weight:700;
+  }
+  .contact-info {
+    display: inline-block;
+    box-sizing:border-box;
+    text-align: center;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+  }
+  .contact-pic{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+  }
+  .location {
+    color: #f7d7c8;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 0%;
+  }
+  .address {
+    display: inline-block;
+  }
